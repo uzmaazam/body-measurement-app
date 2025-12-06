@@ -95,3 +95,16 @@ Your app will be live at: `https://YOUR_USERNAME.github.io/body-measurement-app`
 6. **Download** - Export data as JSON (optional)
 
 ## 🎯 Project Structure
+
+body-measurement-app/
+├── src/
+│   ├── components/
+│   │   └── BodyMeasurementApp.jsx    # Main app component
+│   ├── App.jsx                         # Root component
+│   ├── main.jsx                        # Entry point
+│   └── index.css                       # Global styles + Tailwind
+├── public/                             # Static assets
+├── index.html                          # HTML template
+├── vite.config.js                      # Vite configuration
+├── tailwind.config.js                  # Tailwind configuration
+└── package.json                        # Dependencies & scripts
